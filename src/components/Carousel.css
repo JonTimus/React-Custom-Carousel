@@ -1,0 +1,42 @@
+/* Main carousel container */
+.carousel {
+  overflow: hidden;
+}
+
+/* Inner container to hold carousel items */
+.inner {
+  white-space: nowrap;
+  transition: transform 0.3s;
+}
+
+/* Individual carousel items */
+.carousel-item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  background-color: rgb(65, 100, 94);
+  color: #fff;
+}
+
+/* Navigation indicators container */
+.indicators {
+  display: flex;
+  justify-content: center;
+}
+
+/* Styling for the navigation buttons */
+.indicators > button {
+  margin: 5px;
+  background-color: #fff;
+  color: rgb(65, 100, 94);
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Styling for the active navigation button */
+.indicators > button.active {
+  background-color: rgb(65, 100, 94);
+  color: #fff;
+}
